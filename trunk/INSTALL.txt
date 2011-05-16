@@ -7,9 +7,11 @@ owLanguageRedirect is a template operator which allows to redirect to the user f
 
 This operator detects the browser language, and redirects to the appropriate siteaccess.
 
-If the user switches in another language, his preference is saved in the cookie.
+If the user switches in another language, his preference is saved in a cookie.
 
-When the current siteaccess language is different of user language, user is redirected to the siteaccess corresponding to the user language. (preserve entire request)
+When the current siteaccess language is different of user language, user is redirected to the siteaccess corresponding to the user language, preserving total request.
+
+This extension uses native "switchlanguage" module to provide redirection.
 
 ----------------------------------------------------------------------------------------------------------------------
 
@@ -19,7 +21,9 @@ Cet opérateur détecte la langue par défaut du navigateur et redirige l'utilis
 
 S'il change de langue, un cookie est créé pour stocker sa langue de préférence.
 
-Lorsque la langue du siteaccess en cours est différente de la langue de l'utilisateur, celui-ci est automatiquement redirigé vers le siteaccess correspondant à sa langue préférée. (en conservant la requête complète)
+Lorsque la langue du siteaccess en cours est différente de la langue de l'utilisateur, celui-ci est automatiquement redirigé vers le siteaccess correspondant à sa langue préférée, en conservant l'intégralité de la requête.
+
+Cette extension utilise le module natif "switchlanguage" pour créer la redirection.
 
 
 -------------------------
