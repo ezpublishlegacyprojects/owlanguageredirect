@@ -3,22 +3,23 @@ owLanguageRedirect :
 	v 0.1 beta
 -------------------------
 
-owLanguageRedirect detects the browser language, and redirects the user request to the user favorite language.
+owLanguageRedirect is a template operator which allows to redirect to the user favorite language.
 
-If the user switch in another language, his preference is saved in the cookie.
+This operator detects the browser language, and redirects to the appropriate siteaccess.
 
-When the current siteaccess language is different of user language, user is redirected to the siteaccess corresponding to the user language.
+If the user switches in another language, his preference is saved in the cookie.
 
-------------------------------------------------------------------------------------------------------------
+When the current siteaccess language is different of user language, user is redirected to the siteaccess corresponding to the user language. (preserve entire request)
 
-owLanguageRedirect détecte la langue par défaut du navigateur et redirige l'utilisateur vers sa langue préférée.
+----------------------------------------------------------------------------------------------------------------------
+
+owLanguageRedirect fournit un opérateur de template permettant de rediriger l'utilisateur vers sa langue préférée.
+
+Cet opérateur détecte la langue par défaut du navigateur et redirige l'utilisateur vers le siteaccess approprié.
 
 S'il change de langue, un cookie est créé pour stocker sa langue de préférence.
 
-Lorsque la langue du siteaccess en cours est différente de la langue de l'utilisateur, celui-ci est automatiquement redirigé vers le siteaccess correspondant à sa langue préférée.
-
-
-
+Lorsque la langue du siteaccess en cours est différente de la langue de l'utilisateur, celui-ci est automatiquement redirigé vers le siteaccess correspondant à sa langue préférée. (en conservant la requête complète)
 
 
 -------------------------
